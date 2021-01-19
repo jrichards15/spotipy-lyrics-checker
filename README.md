@@ -1,6 +1,5 @@
 # Spotify Lyrics Checker
-
-# Checking Lyrics for Spotify Playlists
+## Checking Lyrics for Spotify Playlists
 ### Why?
 As a host for campus radio, I'm constantly worried that I didn't screen my songs carefully enough, as this could incur fines or result in the cancelling of my show. Spotify's own explicit tag doesn't always reflect the contents of the songs in their entirety, so I needed to find some kind of solution. I had been checking them manually on Genius, but this took too much time and was still prone to mistakes. This motivated me to program a tool that could easily comb through a list of songs, check their lyrics for certain filter words, and then return a score reflecting its relative explicitness.
 The first iteration of this idea was programmed entirely in Ruby, but I wanted to add a UI and some slightly better support for special characters, filtering, etc. The result isn't on GitHub, as it contains the credentials for accessing the Spotify API (I haven't tried to integrate user authentication yet).
