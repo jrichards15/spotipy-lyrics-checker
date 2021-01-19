@@ -55,7 +55,7 @@ class GeniusScraper:
 
 class PlaylistFinder:
 	def __init__(self, uri):
-		self.sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="e091e138827c4f88826d6cc3d712f777",client_secret="1c6c80d69ceb4bbf8d48fe58ad5f1154"))
+		self.sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="",client_secret=""))
 		self.id = uri
 
 	def get_playlist(self):
